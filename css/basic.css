@@ -6,6 +6,7 @@ body {
    margin: 0;
    font-family: "Lato", sans-serif;
    font-weight: 400;
+   background-color: var(--color-whit);
 }
 
 h1,
@@ -20,13 +21,72 @@ p {
 }
 
 button,
-a {
+a,
+ul {
    padding: 0;
    margin: 0;
    text-decoration: none;
-   color: inherit;
+   color: unset;
+   list-style: none;
+   border: none;
+   outline: none;
+   cursor: pointer;
+   background: transparent;
 }
 
 .container {
+   max-width: 1400px;
+   padding: 0 15px;
+   margin: 0 auto;
+}
 
+.logo {
+   width: 81px;
+   height: 24px;
+   flex-shrink: 0;
+}
+
+.btn {
+   font-family: "Lato", sans-serif;
+   border-radius: 4px;
+   padding: 13px 50px;
+   background: var(--main-green);
+   font-size: 20px;
+   line-height: 125%;
+   color: var(--color-white);
+   font-weight: 400;
+   transition: all .2s ease-in-out;
+}
+
+.btn:hover,
+.btn:focus-visible {
+   opacity: 0.9;
+}
+
+.btn-signin {
+  
+   position: relative;
+   font-size: 20px;
+   font-weight: 400;
+   color: var(--color-black);
+   transition: .2s ease-in;
+}
+
+.btn-signin:hover {
+   color: var(--color-black);
+}
+
+ .btn-signin::after {
+   content: "";
+   position: absolute;
+   left: 0;
+   right: 100%;
+   bottom: -5px;
+   height: 2px;
+   background-color: var(--color-black);
+   transition: right .2s ease-in;
+} 
+
+.btn-signin:hover::after {
+   right: 0;
 }
