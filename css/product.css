@@ -58,6 +58,10 @@
       max-width: 390px;
    }
 
+   .product__wrapper {
+      gap: 45px;
+   }
+
    .product__subtitle {
       font-size: 18px;
    }
@@ -70,9 +74,6 @@
       font-size: 18px;
    }
 
-   .product__wrapper {
-      gap: 45px;
-   }
 }
 
 @media (max-width: 768px) {
@@ -89,7 +90,7 @@
    .product__preview-img {
       height: 470px;
    }
-
+   
    .product__wrapper .person-card {
       display: none;
    }
