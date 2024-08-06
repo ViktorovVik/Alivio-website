@@ -33,6 +33,7 @@
       background: 
       linear-gradient(180deg, rgb(245, 246, 252, 0.52), rgb(255, 176, 139, 0.28)),
       url('../img/webp/bg.webp') 60% 50%/cover no-repeat;
+      height: 495px;
    }
 
    .hero__content {
