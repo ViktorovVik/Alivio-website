@@ -10,10 +10,6 @@
 }
 
 .about__title {
-   font-family: var(--font-family);
-   font-weight: 700;
-   font-size: 50px;
-   line-height: 157%;
    color:var(--main-green);
    max-width: 504px;
    width: 100%;
@@ -32,12 +28,12 @@
 }
 
 .about__decs {
-   font-weight: 500;
-   font-size: 20px;
    line-height: 150%;
    color: var(--color-black);
    max-width: 665px;
    width: 100%;
+   font-weight: 500;
+   font-size: 20px;
 }
 
 .about__cards {
@@ -54,21 +50,12 @@
 
 @media (max-width:1250px) {
    .about__title {
-      font-family: var(--font-family);
-      font-weight: 700;
       font-size: 40px;
-      line-height: 157%;
-      color:var(--main-green);
       max-width: 400px;
-      width: 100%;
    }
    .about__decs {
-      font-weight: 500;
       font-size: 18px;
-      line-height: 150%;
-      color: var(--color-black);
       max-width: 650px;
-      width: 100%;
    }
 
    .about__cards .card:nth-child(2) {
