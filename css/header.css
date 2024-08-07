@@ -8,15 +8,13 @@
    align-items: center;
 }
 
-.header__nav {
-}
+
 .header__nav-list {
    display: flex;
    gap: 70px;
    gap: min(70px, 5vw);
 }
-.header__nav-item {
-}
+
 .header__nav-link {
    font-family: var(--font-family);
    font-weight: 500;
@@ -58,4 +56,16 @@
    .header__nav {
       display: none;
    }
+
+   .header__wrapper {
+      padding: 0 0 0 45px;
+   }
 }
+
+@media (max-width: 390px) {
+   .header__actions .btn {
+      padding: 13px 20px;
+   }
+}
+
+
